@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-------- CONTAINER START ----------->
+    <div class="container">
+
+        <!-------- SIDEBAR START ----------->
+        <div class="sidebar">
+            <div class="sidebar__header">
+                <div class="sidebar__burger">
+                    <span class="burger"></span>
+                    <span class="burger-before"></span>
+                    <span class="burger-after"></span>
+                </div>
+                <div class="sidebar__logo">
+                    <img class="sidebar__logo-img" src="./img/setting 1.png" alt="logo">
+                    <div class="sidebar__logo-name">
+                        Dashboard <span>v.01</span>
+                    </div>
+                </div>
+                <div class="sidebar__menu">
+                    <div class="sidebar__menu-group">
+                        <img src="./img/key-square.png" alt="img" class="menu__group-img">
+                        <p class="menu__group-item">Dashboard</p>
+                    </div>
+                    <div class="sidebar__menu-group">
+                        <img src="./img/3d-square 1.png" alt="img" class="menu__group-img">
+                        <p class="menu__group-item">Product</p>
+                        <img src="./img/chevron-right 2.png" alt="arrow" class="menu__group-arrow">
+                    </div>
+                    <div class="sidebar__menu-group-active">
+                        <img src="./img/user-square 1.png" alt="img" class="menu__group-img">
+                        <p class="menu__group-item-active">Costomers</p>
+                        <img src="./img/chevron-right 2.0.png" alt="arrow" class="menu__group-arrow">
+                    </div>
+                    <div class="sidebar__menu-group">
+                        <img src="./img/wallet-money 2.png" alt="img" class="menu__group-img">
+                        <p class="menu__group-item">Income</p>
+                        <img src="./img/chevron-right 2.png" alt="arrow" class="menu__group-arrow">
+                    </div>
+                    <div class="sidebar__menu-group">
+                        <img src="./img/discount-shape 1.png" alt="img" class="menu__group-img">
+                        <p class="menu__group-item">Promote</p>
+                        <img src="./img/chevron-right 2.png" alt="arrow" class="menu__group-arrow">
+                    </div>
+                    <div class="sidebar__menu-group">
+                        <img src="./img/message-question 1.png" alt="img" class="menu__group-img">
+                        <p class="menu__group-item">Help</p>
+                        <img src="./img/chevron-right 2.png" alt="arrow" class="menu__group-arrow">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="sidebar__footer">
+                <div class="sidebar__profile">
+                    <img src="./img/Ellipse 8.png" alt="logo" class="sidebar__profile-img">
+                    <div class="sidebar__profile-info">
+                        <p class="profile-name">Evano</p>
+                        <p class="profile-item">Project Manager</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <!-------- SIDEBAR END ----------->
+
+        <!-------- MAIN START ----------->
+        <main class="main">
+            <h1 class="main__title">Hello Evano 👋🏼,</h1>
+            <div class="main__block">
+                <div class="block__header">
+                    <div class="block__header-section">
+                        <h2 class="section__title">All Customers</h2>
+                        <p class="section__info">Active Members</p>
+                    </div>
+                    <div class="block__header-search">
+                        <img src="./img/search 1.png" alt="logo" class="search__logo">
+                        <form>
+                            <label>
+                                <input class="search__txt" type="text" name="search" placeholder="Search" />
+                            </label>    
+                        </form>
+                    </div>
+                </div>               
+                <div class="block__content">
+                    <div class="block__content-header">
+                        <p class="content__header-item">Customer Name</p>
+                        <p class="content__header-item-company">Company</p>
+                        <p class="content__header-item-phone">Phone Number</p>
+                        <p class="content__header-item">Email</p>
+                        <p class="content__header-item-country">Country</p>
+                        <p class="content__header-item-active">Status</p>
+                    </div>
+                    <div class="block__content-info">
+                        <p class="content__info-item">Jane Cooper</p>
+                        <p class="content__info-item-company">Microsoft</p>
+                        <p class="content__info-item-phone">(225) 555-0118</p>
+                        <p class="content__info-item">jane@microsoft.com</p>
+                        <p class="content__info-item-country">United States</p>
+                        <div class="content__info-item-active">
+                            <p class="item-active">Active</p>
+                        </div>
+                    </div>
+                    <div class="block__content-info">
+                        <p class="content__info-item">Floyd Miles</p>
+                        <p class="content__info-item-company">Yahoo</p>
+                        <p class="content__info-item-phone">(205) 555-0100</p>
+                        <p class="content__info-item">floyd@yahoo.com</p>
+                        <p class="content__info-item-country">Kiribati</p>
+                        <div class="content__info-item-active">
+                            <p class="item-inactive">Inactive</p>
+                        </div>
+                    </div>
+                    <div class="block__content-info">
+                        <p class="content__info-item">Ronald Richards</p>
+                        <p class="content__info-item-company">Adobe</p>
+                        <p class="content__info-item-phone">(302) 555-0107</p>
+                        <p class="content__info-item">ronald@adobe.com</p>
+                        <p class="content__info-item-country">Israel</p>
+                        <div class="content__info-item-active">
+                            <p class="item-inactive">Inactive</p>
+                        </div>
+                    </div>
+                    <div class="block__content-info">
+                        <p class="content__info-item">Marvin McKinney</p>
+                        <p class="content__info-item-company">Tesla</p>
+                        <p class="content__info-item-phone">(252) 555-0126</p>
+                        <p class="content__info-item">marvin@tesla.com</p>
+                        <p class="content__info-item-country">Iran</p>
+                        <div class="content__info-item-active">
+                            <p class="item-active">Active</p>
+                        </div>
+                    </div>
+                    <div class="block__content-info">
+                        <p class="content__info-item">Jerome Bell</p>
+                        <p class="content__info-item-company">Google</p>
+                        <p class="content__info-item-phone">(629) 555-0129</p>
+                        <p class="content__info-item">jerome@google.com</p>
+                        <p class="content__info-item-country">Réunion</p>
+                        <div class="content__info-item-active">
+                            <p class="item-active">Active</p>
+                        </div>
+                    </div>
+                    <div class="block__content-info">
+                        <p class="content__info-item">Kathryn Murphy</p>
+                        <p class="content__info-item-company">Microsoft</p>
+                        <p class="content__info-item-phone">(406) 555-0120</p>
+                        <p class="content__info-item">kathryn@microsoft.com</p>
+                        <p class="content__info-item-country">Curaçao</p>
+                        <div class="content__info-item-active">
+                            <p class="item-active">Active</p>
+                        </div>
+                    </div>
+                    <div class="block__content-info">
+                        <p class="content__info-item">Jacob Jones</p>
+                        <p class="content__info-item-company">Yahoo</p>
+                        <p class="content__info-item-phone">(208) 555-0112</p>
+                        <p class="content__info-item">jacob@yahoo.com</p>
+                        <p class="content__info-item-country">Brazil</p>
+                        <div class="content__info-item-active">
+                            <p class="item-active">Active</p>
+                        </div>
+                    </div>
+                    <div class="block__content-info">
+                        <p class="content__info-item">Kristin Watson</p>
+                        <p class="content__info-item-company">Facebook</p>
+                        <p class="content__info-item-phone">(704) 555-0127</p>
+                        <p class="content__info-item">kristin@facebook.com</p>
+                        <p class="content__info-item-country">Åland Islands</p>
+                        <div class="content__info-item-active">
+                            <p class="item-inactive">Inactive</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="block__footer">
+                    <p class="block__footer-txt">Showing data 1 to 8 of  256K entries</p>
+                    <div class="block__footer-pages">
+                        <img src="./img/_.png" alt="arrow" class="pages__arrow">
+                        <p class="pages__number">1</p>
+                        <p class="pages__number">2</p>
+                        <p class="pages__number">3</p>
+                        <p class="pages__number">4</p>
+                        <p class="pages__number-default">...</p>
+                        <p class="pages__number">40</p>
+                        <img src="./img/_ (1).png" alt="arrow" class="pages__arrow">
+                    </div>
+                </div>
+            </div>
+            
+        </main>
+        <!-------- MAIN END ----------->
+
+    </div>
+    <!-------- CONTAINER END ----------->
+
+    <script src="./script.js"></script>
+</body>
+</html>
